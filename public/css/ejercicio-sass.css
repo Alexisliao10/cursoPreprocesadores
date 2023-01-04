@@ -41,8 +41,30 @@ main {
   display: block;
   width: 100px;
   height: 40px;
-  margin: 15xp auto;
+  margin: 15px auto;
   padding-top: 15px;
   border-radius: 20px;
   text-decoration: none;
+  text-align: center;
+}
+
+.estadistica--perfil {
+  display: flex;
+  width: 50%;
+  height: 90px;
+  padding-top: 15px;
+  margin: 0 auto;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.estadistica--perfil h3 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.estadistica--perfil span {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
 }/*# sourceMappingURL=ejercicio-sass.css.map */
